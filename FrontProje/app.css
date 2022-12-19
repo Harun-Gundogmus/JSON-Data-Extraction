@@ -1,0 +1,35 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  button {
+    font: inherit;
+    background: #b2c411;
+    border: 1px solid #07030a;
+    color: white;
+    cursor: pointer;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.5rem;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: #7d0921;
+    border-color: #e6e4e9;
+  }
+  
+  #control-center {
+    border: 2px solid #ccc;
+    margin: 5rem;
+    padding: 2rem;
+    text-align: center;
+    
+  }
